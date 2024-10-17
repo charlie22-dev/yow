@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       
+
+        nUm1=parseInt(window.prompt(" enter grade in math "));
+        document.write(" <br> the grade in math  ", +nUm1);
+        nUm2=parseInt(window.prompt(" enter grade in science "));
+        document.write("<br> the grade in science  ", +nUm2);
+        nUm3=parseInt(window.prompt("enter grade in english"));
+        document.write(" <br> the grade in english  ", +nUm3);
+        nUm4=parseInt(window.prompt("enter grade in comp"))
+        document.write(" <br> the grade in comp  ", +nUm4);
+
+        ave=(nUm1+nUm2+nUm3+nUm4)/4
+      
+        document.write(" <br> the average  is ", ave);
+
+        if (ave<75) {document.write("<br> failed");}
+
+        else if (ave>89) {document.write("<br> with honors")} 
+       
+        else if (ave>95) {document.write("<br> with high honors")}
+
+        else {document.write("<br> passed");}
+
+        
+    </script>
+</body>
+
+
+ 
+</html>
